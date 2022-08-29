@@ -1,0 +1,22 @@
+uuid: a0bd9b8d-f7e9-4295-bdca-4cfc0e489c52
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - gesso
+_core:
+  default_config_hash: MTtOTi0daIhHPdrnwFewkKQdt21ySkblZ4Vgn3cKJHA
+id: gesso_help
+theme: gesso
+region: help
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: a29afbba-a680-4db4-b189-ea7cd0b9863f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - aphis
+_core:
+  default_config_hash: MAVuoOypR277IMhnoKmyyFKLiUWnjBV329uCeO_UVrk
+id: aphis_local_tasks
+theme: aphis
+region: status
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

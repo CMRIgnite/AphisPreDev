@@ -1,0 +1,27 @@
+uuid: be7edee9-1783-4a24-a97e-8ab5fdffd76e
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - aphis
+_core:
+  default_config_hash: StQ15as19HTmpjpQsJ13al05l_pFOXLpA_S-ykywA4c
+id: aphis_account_menu
+theme: aphis
+region: header
+weight: -1
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }
