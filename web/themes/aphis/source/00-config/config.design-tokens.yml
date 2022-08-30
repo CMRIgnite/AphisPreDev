@@ -1,5 +1,19 @@
 # Design Tokens
 # Define basic design variables here.
+uswds:
+  display-font-size: 'lg'
+  heading-line-height: 2
+  h1-font-size: 8
+  h2-font-size: 7
+  h3-font-size: 6
+  h4-font-size: 5
+  h5-font-size: 4
+  h6-font-size: 3
+  body-line-height: 1
+  body-font-size: 5
+  lead-font-family: 'sans'
+  lead-font-size: 5
+  lead-line-height: 1
 gesso:
   palette:
     brand:
