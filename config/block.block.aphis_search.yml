@@ -1,0 +1,23 @@
+uuid: 37f990ee-cd40-4d65-ba83-87f852815409
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - aphis
+_core:
+  default_config_hash: DYDiFVbKeeO_IdWRruUkTtINv7QUVg5cmSXODF03NQI
+id: aphis_search
+theme: aphis
+region: disabled
+weight: 0
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  label_display: visible
+  provider: search
+  page_id: node_search
+visibility: {  }

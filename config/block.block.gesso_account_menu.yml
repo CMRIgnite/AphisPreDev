@@ -1,0 +1,27 @@
+uuid: 062a06f1-63c3-4f62-8556-5d885231c5cb
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - gesso
+_core:
+  default_config_hash: 25Q1JnoSP9Vc4NcZ9CIVMSOM4qlXL-REzb6NQk63qgg
+id: gesso_account_menu
+theme: gesso
+region: header
+weight: -1
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

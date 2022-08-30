@@ -1,0 +1,22 @@
+uuid: 7d572d47-f786-475a-9e84-0e170130824f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gesso
+_core:
+  default_config_hash: p56rPKUKPgnduw7t54T2KaojWBGGgLX3NUBl9dL32Jc
+id: gesso_powered
+theme: gesso
+region: disabled
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

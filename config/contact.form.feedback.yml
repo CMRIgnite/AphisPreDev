@@ -1,0 +1,14 @@
+uuid: 990d0804-b8cb-4bb9-bc08-920e150b7c39
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - swilliams@cmrignite.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''
